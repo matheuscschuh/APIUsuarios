@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "9437361b-5e0e-4a36-ad7b-bdf89d60008f",
+		"name": "AS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50527629",
+		"_collection_link": "https://matheus-cschuh-6123257.postman.co/workspace/Matheus-Schuh's-Workspace~f9df3c9a-8d14-45c0-8193-b48b27ea6d37/collection/50527629-9437361b-5e0e-4a36-ad7b-bdf89d60008f?action=share&source=collection_link&creator=50527629"
+	},
+	"item": [
+		{
+			"name": "Lista todos os usuários",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5223/usuarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5223",
+					"path": [
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "criar usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\" : \"Lucas Fogaça\",\r\n    \"email\" : \"email@mudaremail.com\",\r\n    \"senha\" : \"654321\",\r\n    \"dataNascimento\" : \"2004-06-12\",\r\n    \"telefone\" : \"51998543765\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5223/usuarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5223",
+					"path": [
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
