@@ -79,7 +79,7 @@ No geral, o projeto entrega uma solução completa para gerenciamento de usuári
   
 
 ## Estrutura do Projeto
-
+```
 APIUsuarios/
 │
 ├── Application/
@@ -129,7 +129,7 @@ APIUsuarios/
 ├── appsettings.json
 ├── appsettings.Development.json
 └── Program.cs
-
+```
 
 
   
